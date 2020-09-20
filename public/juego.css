@@ -1,0 +1,117 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    /*width:960px;*/
+    margin:0 auto;
+    display:flex;
+    font-family:sans-serif;
+    justify-content: center;
+    color:#26f196;
+    background-image: url(fondo2.jpg);
+}
+
+.contenedor{
+    background:#14bdac;
+    margin-top:50px;
+    padding:20px;
+    border-radius:25px;
+
+}
+
+h1{
+    text-align:center;
+    
+}
+
+.titulo{
+    text-align:center;
+}
+
+.titulo span{
+    color:white;
+}
+
+.contenedorBotones{ /*Status-action*/
+    /*display:flex;*/
+    margin-top:25px;
+    font-size:25px;
+    /*justify-content:space-around;*/
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.contenedorBotones span{
+    color:white;
+}
+
+.borrar{
+    cursor:pointer;
+    background:blue;
+    padding:10px 10px 10px;
+    border-radius:10px;
+
+}
+
+.borrar:hover{
+    background:rgb(96, 205, 212);
+}
+
+
+.borrar:hover{
+    color:pink;
+}
+
+#boton{
+    background-color:red;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    font-weight:bolder;
+    padding:3px;
+    border:solid 2px black;
+}
+
+#boton:hover{
+    background-color:lightcoral;
+    font-size:22px;
+}
+
+
+.areaJuego{
+    background:#0da192;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 15px;
+}
+
+.celda{
+    height:100px;
+    width:100px;
+    background:#14bdac;
+    cursor:pointer;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.x::after{
+    content: '✖';
+    font-size:100px;
+
+}
+
+.o::after{
+    content:'◯';
+    font-size:90px;
+    color:white;
+}
+
+.ganador::after{
+    color:yellow;
+}
+

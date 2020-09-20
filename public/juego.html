@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Proyecto 2, Javascript, NodeJs, Totito, Juego">
+    <meta name="keywords" content="Proyecto 2, Javascript, NodeJs, Totito, Juego, UMG, Ingenieria, Examen, Multijugador">
+    <link rel="stylesheet" href="juego.css"> 
+    <title>TOTITO</title>
+</head>
+<body>
+    
+    <br>
+    <!--canvas id=pantalla width=90% height=90%>
+        Tu navegador no soporta Canvas
+    </canvas!-->
+
+   
+
+    <div class=contenedor>
+        <h1 class=titulo>TO  <span>TI</span>   TO</h1>
+       
+        <div class=contenedorBotones>
+            <div class=estado>Es el turno de X</div>
+            <div class=borrar>Borrar</div>
+        </div>
+
+<div class="areaJuego">
+    <div class="celda" id="1"></div>
+    <div class="celda" id="2"></div>
+    <div class="celda" id="3"></div>
+    <div class="celda" id="4"></div>
+    <div class="celda" id="5"></div>
+    <div class="celda" id="6"></div>
+    <div class="celda" id="7"></div>
+    <div class="celda" id="8"></div>
+    <div class="celda" id="9"></div> 
+</div>
+
+    </div>
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script>   
+    <script src=juego.js></script>
+</body>
+</html>

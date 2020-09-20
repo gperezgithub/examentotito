@@ -1,0 +1,25 @@
+{
+  "name": "proyecto2totito",
+  "version": "1.0.0",
+  "description": "Proyecto juego multijugador con Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "Proyecto2",
+    "Totito",
+    "Juego",
+    "Umg"
+  ],
+  "author": "Grupo#8",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
